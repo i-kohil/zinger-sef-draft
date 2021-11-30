@@ -43,7 +43,7 @@ margin-right: 1.5em;
 }
 
 .menu-item-text{
-    flex-grow:1 ;
+    flex-grow: 1 ;
 
 }
 .menu-item-heading{
@@ -56,6 +56,10 @@ margin-right: 1.5em;
 .menu-item-name{
     margin-right: 1.5em;
     
+}
+.menu-item-dis{
+    font-style: italic;
+    line-height: 1.5;
 }
 
 @media screen and (min-width:992px)
@@ -74,8 +78,8 @@ grid-template-columns: repeat(2, 1fr);
 
 .menu-item-image
 {
-width: 80px;
-height: 80px ;
+width: 125px;
+height: 125px ;
 
 }
 
