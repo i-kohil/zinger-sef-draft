@@ -302,15 +302,15 @@ header .icons #menu-bars{
 }
 /*/////////////////////////////*/
 
-/*//////////////zinger////////////////////////////////*/
+/*//////////////Plate////////////////////////////////*/
 
-.Zinger .box-container{
+.Plate .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap:1.5rem;
 }
 
-.Zinger .box-container .box{
+.Plate .box-container .box{
     padding:2.5rem;
     background:#fff;
     border-radius: .5rem;
@@ -321,8 +321,8 @@ header .icons #menu-bars{
     text-align: center;
 }
 
-.Zinger .box-container .box .fa-heart,
-.Zinger .box-container .box .fa-eye{
+.Plate .box-container .box .fa-heart,
+.Plate .box-container .box .fa-eye{
     position: absolute;
     top:1.5rem;
     background:#eee;
@@ -334,62 +334,63 @@ header .icons #menu-bars{
     color:var(--black);
 }
 
-.Zinger .box-container .box .fa-heart:hover,
-.Zinger .box-container .box .fa-eye:hover{
+.Plate .box-container .box .fa-heart:hover,
+.Plate .box-container .box .fa-eye:hover{
     background: var( --red);
     color:#fff;
 }
 
-.Zinger .box-container .box .fa-heart{
+.Plate .box-container .box .fa-heart{
     right:-15rem;
 }
 
-.Zinger .box-container .box .fa-eye{
+.Plate .box-container .box .fa-eye{
     left:-15rem;
 }
 
-.Zinger .box-container .box:hover .fa-heart{
+.Plate .box-container .box:hover .fa-heart{
     right:1.5rem;
 }
 
-.Zinger .box-container .box:hover .fa-eye{
+.Plate .box-container .box:hover .fa-eye{
     left:1.5rem;
 }
 
-.Zinger .box-container .box img{
+.Plate .box-container .box img{
     height:17rem;
     margin:1rem 0;
 }
 
-.Zinger .box-container .box h3{
+.Plate .box-container .box h3{
     color:var(--black);
     font-size: 2.5rem;
 }
 
-.Zinger .box-container .box .stars{
+.Plate .box-container .box .stars{
     padding:1rem 0;
 }
 
-.Zinger .box-container .box .stars i{
+.Plate .box-container .box .stars i{
     font-size: 1.7rem;
     color:var( --red);
 }
 
-.Zinger .box-container .box span{
+.Plate .box-container .box span{
     color:var( --red);
     font-weight: bolder;
     margin-right: 1rem;
     font-size: 2.5rem;
 }
-/*/////////////////////////////*//*//////////////zinger////////////////////////////////*/
+/*/////////////////////////////*/
+/*//////////////Salate////////////////////////////////*/
 
-.Zinger .box-container{
+.Salate .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap:1.5rem;
 }
 
-.Zinger .box-container .box{
+.Salate .box-container .box{
     padding:2.5rem;
     background:#fff;
     border-radius: .5rem;
@@ -400,8 +401,8 @@ header .icons #menu-bars{
     text-align: center;
 }
 
-.Zinger .box-container .box .fa-heart,
-.Zinger .box-container .box .fa-eye{
+.Salate .box-container .box .fa-heart,
+.Salate .box-container .box .fa-eye{
     position: absolute;
     top:1.5rem;
     background:#eee;
@@ -413,34 +414,34 @@ header .icons #menu-bars{
     color:var(--black);
 }
 
-.Zinger .box-container .box .fa-heart:hover,
-.Zinger .box-container .box .fa-eye:hover{
+.Salate .box-container .box .fa-heart:hover,
+.Salate .box-container .box .fa-eye:hover{
     background: var( --red);
     color:#fff;
 }
 
-.Zinger .box-container .box .fa-heart{
+.Salate .box-container .box .fa-heart{
     right:-15rem;
 }
 
-.Zinger .box-container .box .fa-eye{
+.Salate .box-container .box .fa-eye{
     left:-15rem;
 }
 
-.Zinger .box-container .box:hover .fa-heart{
+.Salate .box-container .box:hover .fa-heart{
     right:1.5rem;
 }
 
-.Zinger .box-container .box:hover .fa-eye{
+.Salate .box-container .box:hover .fa-eye{
     left:1.5rem;
 }
 
-.Zinger .box-container .box img{
+.Salate .box-container .box img{
     height:17rem;
     margin:1rem 0;
 }
 
-.Zinger .box-container .box h3{
+.Salate .box-container .box h3{
     color:var(--black);
     font-size: 2.5rem;
 }
@@ -449,26 +450,27 @@ header .icons #menu-bars{
     padding:1rem 0;
 }
 
-.Zinger .box-container .box .stars i{
+.Salate .box-container .box .stars i{
     font-size: 1.7rem;
     color:var( --red);
 }
 
-.Zinger .box-container .box span{
+.Salate .box-container .box span{
     color:var( --red);
     font-weight: bolder;
     margin-right: 1rem;
     font-size: 2.5rem;
 }
-/*/////////////////////////////*//*//////////////zinger////////////////////////////////*/
+/*/////////////////////////////*/
+/*//////////////Dorucak////////////////////////////////*/
 
-.Zinger .box-container{
+.Dorucak .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap:1.5rem;
 }
 
-.Zinger .box-container .box{
+.Dorucak .box-container .box{
     padding:2.5rem;
     background:#fff;
     border-radius: .5rem;
@@ -479,8 +481,8 @@ header .icons #menu-bars{
     text-align: center;
 }
 
-.Zinger .box-container .box .fa-heart,
-.Zinger .box-container .box .fa-eye{
+.Dorucak .box-container .box .fa-heart,
+.Dorucak .box-container .box .fa-eye{
     position: absolute;
     top:1.5rem;
     background:#eee;
@@ -492,48 +494,48 @@ header .icons #menu-bars{
     color:var(--black);
 }
 
-.Zinger .box-container .box .fa-heart:hover,
-.Zinger .box-container .box .fa-eye:hover{
+.Dorucak .box-container .box .fa-heart:hover,
+.Dorucak .box-container .box .fa-eye:hover{
     background: var( --red);
     color:#fff;
 }
 
-.Zinger .box-container .box .fa-heart{
+.Dorucak .box-container .box .fa-heart{
     right:-15rem;
 }
 
-.Zinger .box-container .box .fa-eye{
+.Dorucak .box-container .box .fa-eye{
     left:-15rem;
 }
 
-.Zinger .box-container .box:hover .fa-heart{
+.Dorucak .box-container .box:hover .fa-heart{
     right:1.5rem;
 }
 
-.Zinger .box-container .box:hover .fa-eye{
+.Dorucak .box-container .box:hover .fa-eye{
     left:1.5rem;
 }
 
-.Zinger .box-container .box img{
+.Dorucak .box-container .box img{
     height:17rem;
     margin:1rem 0;
 }
 
-.Zinger .box-container .box h3{
+.Dorucak .box-container .box h3{
     color:var(--black);
     font-size: 2.5rem;
 }
 
-.Zinger .box-container .box .stars{
+.Dorucak .box-container .box .stars{
     padding:1rem 0;
 }
 
-.Zinger .box-container .box .stars i{
+.Dorucak .box-container .box .stars i{
     font-size: 1.7rem;
     color:var( --red);
 }
 
-.Zinger .box-container .box span{
+.Dorucak .box-container .box span{
     color:var( --red);
     font-weight: bolder;
     margin-right: 1rem;
@@ -705,13 +707,13 @@ header .icons #menu-bars{
 
 /*//////////////Vegan////////////////////////////////*/
 
-.Zinger .box-container{
+.Vegan .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap:1.5rem;
 }
 
-.Zinger .box-container .box{
+.Vegan .box-container .box{
     padding:2.5rem;
     background:#fff;
     border-radius: .5rem;
@@ -722,8 +724,8 @@ header .icons #menu-bars{
     text-align: center;
 }
 
-.Zinger .box-container .box .fa-heart,
-.Zinger .box-container .box .fa-eye{
+.Vegan .box-container .box .fa-heart,
+.Vegan .box-container .box .fa-eye{
     position: absolute;
     top:1.5rem;
     background:#eee;
@@ -735,62 +737,63 @@ header .icons #menu-bars{
     color:var(--black);
 }
 
-.Zinger .box-container .box .fa-heart:hover,
-.Zinger .box-container .box .fa-eye:hover{
+.Vegan .box-container .box .fa-heart:hover,
+.Vegan .box-container .box .fa-eye:hover{
     background: var( --red);
     color:#fff;
 }
 
-.Zinger .box-container .box .fa-heart{
+.Vegan .box-container .box .fa-heart{
     right:-15rem;
 }
 
-.Zinger .box-container .box .fa-eye{
+.Vegan .box-container .box .fa-eye{
     left:-15rem;
 }
 
-.Zinger .box-container .box:hover .fa-heart{
+.Vegan .box-container .box:hover .fa-heart{
     right:1.5rem;
 }
 
-.Zinger .box-container .box:hover .fa-eye{
+.Vegan .box-container .box:hover .fa-eye{
     left:1.5rem;
 }
 
-.Zinger .box-container .box img{
+.Vegan .box-container .box img{
     height:17rem;
     margin:1rem 0;
 }
 
-.Zinger .box-container .box h3{
+.Vegan .box-container .box h3{
     color:var(--black);
     font-size: 2.5rem;
 }
 
-.Zinger .box-container .box .stars{
+.Vegan .box-container .box .stars{
     padding:1rem 0;
 }
 
-.Zinger .box-container .box .stars i{
+.Vegan .box-container .box .stars i{
     font-size: 1.7rem;
     color:var( --red);
 }
 
-.Zinger .box-container .box span{
+.Vegan .box-container .box span{
     color:var( --red);
     font-weight: bolder;
     margin-right: 1rem;
     font-size: 2.5rem;
 }
-/*/////////////////////////////*//*//////////////zinger////////////////////////////////*/
+/*/////////////////////////////*/
+/*//////////////Pica////////////////////////////////*/
 
-.Zinger .box-container{
+.Pica .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap:1.5rem;
 }
 
-.Zinger .box-container .box{
+.Pica .box-container .box{
     padding:2.5rem;
     background:#fff;
     border-radius: .5rem;
@@ -801,8 +804,8 @@ header .icons #menu-bars{
     text-align: center;
 }
 
-.Zinger .box-container .box .fa-heart,
-.Zinger .box-container .box .fa-eye{
+.Pica .box-container .box .fa-heart,
+.Pica .box-container .box .fa-eye{
     position: absolute;
     top:1.5rem;
     background:#eee;
@@ -814,48 +817,48 @@ header .icons #menu-bars{
     color:var(--black);
 }
 
-.Zinger .box-container .box .fa-heart:hover,
-.Zinger .box-container .box .fa-eye:hover{
+.Pica .box-container .box .fa-heart:hover,
+.Pica .box-container .box .fa-eye:hover{
     background: var( --red);
     color:#fff;
 }
 
-.Zinger .box-container .box .fa-heart{
+.Pica .box-container .box .fa-heart{
     right:-15rem;
 }
 
-.Zinger .box-container .box .fa-eye{
+.Pica .box-container .box .fa-eye{
     left:-15rem;
 }
 
-.Zinger .box-container .box:hover .fa-heart{
+.Pica .box-container .box:hover .fa-heart{
     right:1.5rem;
 }
 
-.Zinger .box-container .box:hover .fa-eye{
+.Pica .box-container .box:hover .fa-eye{
     left:1.5rem;
 }
 
-.Zinger .box-container .box img{
+.Pica .box-container .box img{
     height:17rem;
     margin:1rem 0;
 }
 
-.Zinger .box-container .box h3{
+.Pica .box-container .box h3{
     color:var(--black);
     font-size: 2.5rem;
 }
 
-.Zinger .box-container .box .stars{
+.Pica .box-container .box .stars{
     padding:1rem 0;
 }
 
-.Zinger .box-container .box .stars i{
+.Pica .box-container .box .stars i{
     font-size: 1.7rem;
     color:var( --red);
 }
 
-.Zinger .box-container .box span{
+.Pica .box-container .box span{
     color:var( --red);
     font-weight: bolder;
     margin-right: 1rem;
