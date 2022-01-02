@@ -1,189 +1,970 @@
- <!DOCTYPE html>
-<!--<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>~Tasty~</title>
-    
-  </head>
-  <body>
-    <h1>Tasty</h1>
-
-    <label for="Burger">Choose a Burger :</label>
-    <select name="burgername-names" id="burger-names">
-      <option value=" regular ">Regular</option>
-      <option value="Double ">Double</option>
-      <option value="Cheese Burger">Cheese Burger</option>
-      <option value="spicy">spicy</option>
-    </select>
-    <br />
-    <label for="plate">Choose a Plate :</label>
-    <select name="platename-names" id="plate-names">
-      <option value=" fillet ">fillet</option>
-      <option value="beef ">beef </option>
-      <option value="breakfast plate 1 ">breakfast1</option>
-      <option value="breakfast plate 2 ">breakfast2</option>
-    </select>
-    <br />
-    <label for="Sandwhich">Choose  :</label>
-    <select name="sandwichname-names" id="sandwich-names">
-      <option value=" fillet ">fillet</option>
-      <option value="hotdog ">beef </option>
-      <option value="salami ">breakfast1</option>
-      <option value="tuna ">breakfast2</option>
-      <option value="Chick-wrap ">breakfast2</option>
-    </select>
-    <br />
-    <label for="sides">Choose a side :</label>
-    <select name="sidenames-names" id="side-names">
-      <option value=" fries ">Regular</option>
-      <option value="large fries ">Double</option>
-      <option value="Cheese Burger">Cheese Burger</option>
-      <option value="spicy">spicy</option>
-    </select>
-    <br />
-    <label for="drinks ">Choose a drinks :</label>
-    <select name="drinkname-names" id="drink-names">
-      <option value=" water ">Regular</option>
-      <option value="cola ">Double</option>
-      <option value="sprite">Cheese Burger</option>
-      <option value="ice-tea">spicy</option>
-    </select>
-  </body>
-</html>
-  -->
-<!--//////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tasty-Menu</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zinger šef</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-  <div class="container">
-    <div class="menu">
-      <h2 class="menu-group-heading">
-        Burgers
-      </h2>
+<header>
 
-      <div class="menu-group">
-        <div class="menu-items">
-        <img class="menu-item-image" src = "./img/burger.jpg" alt = "classic-burg">    
-      <div class="menu-item-text">    
-        <h3 class="menu-item-heading">
-<span class="menu-item-name"> Classic-Burger </span>
-<span class="menu-item-price">3,00 km</span>
-  </h3>
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>Zinger šef</a>
 
-  <p class="menu-item-dis">
-      Classic burger: 200gram beef patty, lettuce, tomato, sauce.
-</p>
-</div>
-      </div>
-        
-      <div class="menu-items">
-        <img class="menu-item-image" src = "./img/burger.jpg" alt = "double-classic-burg">    
-      <div class="menu-item-text">    
-        <h3 class="menu-item-heading">
-<span class="menu-item-name"> double-Burger </span>
-<span class="menu-item-price">4,50 km</span>
-  </h3>
-
-  <p class="menu-item-dis">
-      Classic burger: 2 200gram beef patty, lettuce, tomato, sauce.
-</p>
-</div>
-      </div>
-
-      <div class="menu-items">
-        <img class="menu-item-image" src = "./img/cheese-burger.jpg" alt = "cheese-burg">    
-      <div class="menu-item-text">    
-        <h3 class="menu-item-heading">
-<span class="menu-item-name"> cheese-Burger </span>
-<span class="menu-item-price">4,50 km</span>
-  </h3>
-
-  <p class="menu-item-dis">
-      Classic burger: 200gram beef patty, cheese, lettuce, tomato, sauce.
-</p>
-</div>
-      </div>
-
-
-
-      <div class="menu-items">
-        <img class="menu-item-image" src = "./img/black-burg.jpg" alt = "black-burg">    
-      <div class="menu-item-text">    
-        <h3 class="menu-item-heading">
-<span class="menu-item-name"> black-Burger </span>
-<span class="menu-item-price">4,50 km</span>
-  </h3>
-
-  <p class="menu-item-dis">
-      black burger: 200gram beef patty, cheese, lettuce, tomato, sauce.
-</p>
-</div>
-      </div>
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#menu">menu</a>
+        <a href="#about">about</a>
+       
       
+        <a href="#order">order</a>
+    </nav>
 
-      <div class="menu-items">
-        <img class="menu-item-image" src = "./img/black-burg.jpg" alt = "black-burg">    
-      <div class="menu-item-text">    
-        <h3 class="menu-item-heading">
-<span class="menu-item-name"> black-Burger </span>
-<span class="menu-item-price">4,50 km</span>
-  </h3>
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
 
-  <p class="menu-item-dis">
-      black burger: 200gram beef patty, cheese, lettuce, tomato, sauce.
-</p>
-</div>
-      </div>
+</header>
 
 
-      <div class="menu-items">
-        <img class="menu-item-image" src = "./img/chilli-cheese.jpg" alt = "chilli-cheese-burg">    
-      <div class="menu-item-text">    
-        <h3 class="menu-item-heading">
-<span class="menu-item-name"> chilli-cheese-Burger </span>
-<span class="menu-item-price">4,50 km</span>
-  </h3>
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+<section class="home" id="home">
 
-  <p class="menu-item-dis">
-      black burger: 200gram beef patty, cheese, lettuce, tomato, chilli sauce.
-</p>
-</div>
-      </div>
+    <div class="swiper-container home-slider">
 
-      </div>
+        <div class="swiper-wrapper wrapper">
 
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>special dishes</span>
+                    <h3>ZingerRoll</h3>
+                    <!-- <p></p> -->
+                    <a href="#order" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src=" " alt="">
+                </div>
+            </div>
 
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>ZingerBurger</h3>
+                    <!-- <p></p> -->
+                    <a href="#order" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src=" " alt="">
+                </div>
+            </div>
 
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>FalafelRoll</h3>
+                    <!-- <p></p> -->
+                    <a href="#order" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src=" " alt="">
+                </div>
+            </div>
 
-      <h2 class="menu-group-heading">
-        mains
-      </h2>
-      <div class="menu-group">
+        </div>
 
-      </div>
-      <h2 class="menu-group-heading">
-        sides
-      </h2>
-      <div class="menu-group">
-
-      </div>
-      <h2 class="menu-group-heading">
-        drinks
-      </h2>
-      <div class="menu-group">
-
-      </div>
+        <div class="swiper-pagination"></div>
 
     </div>
-  </div>
+
+</section>
+
+<!--        ZINGER      -->
+<section class="dishes" id="dishes">
+
+    <h4 class="sub-heading"> svjeze & ukusno </h4>
+    <h1 class="heading"> Zinger </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>Zinger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.00 / 8.00 KM</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>Chicken zinger Tortilja za Djecu</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>3.00 / 5.50 km</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>Chicken zinger Tortilja</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.00 km</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>Zinger Burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.0 km </span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>zinger crispy (4 komada)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50/8.0 </span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>zinger crispy (6 komada)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>8.00 / 10.50</span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>zinger crispy (10 komada)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>13.0 15.50 </span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>zinger Popcorn </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.0/8.0 </span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+<!-- end of ZINGER   ///////////////////////////////////////////////////////////-->
+    </div>
+
+</section>
+<!---//////////////BURGER///////////////-->
+
+<section class="dishes" id="dishes">
+
+    <h4 class="sub-heading"> svjeze & ukusno </h4>
+    <h1 class="heading"> Burger </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>Classic (Veliki)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.00 KM</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>Classic (srednji)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.00 / 8.00 km</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>Classic (mali)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>4.00 / 6.50 km</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>Mini Burger (3Komada)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.0 km </span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>Tortilja Burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50/8.0 </span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>Pileci Burger (Velki)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.00</span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>Pileci Burger( Mali)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>4.00 / 6.50 </span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+
+    </div>
+        <!-- end of Burger   ///////////////////////////////////////////////////////////-->
+</section>
+<!---////////////OSTALO/////////////////-->
+
+<section class="dishes" id="dishes">
+
+    <h4 class="sub-heading"> svjeze & ukusno </h4>
+    <h1 class="heading"> Ostalo </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>PILETINA SA GLJIVAMA SENDVIC</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.00 KM</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>PILETINA BBQ SENDVIC</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.00 / 8.00 km</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>GRILOVANA PILETINA</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>4.00 / 6.50 km</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>GRILOVANA PILETINA UTORTILJI</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.0 km </span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>ROSTILJSKA KOBASICA</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50/8.0 </span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>CHEESE POMFRIT SENDVIC</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.00</span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>CHEESE POMFRIT U TORTILJI</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>4.00 / 6.50 </span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+
+    </div>
+        <!-- end of OSTALO   ///////////////////////////////////////////////////////////-->
+</section>
+<!---//////////////CRISPY VEGAN ///////////////-->
+
+<section class="dishes" id="dishes">
+
+    <h4 class="sub-heading"> svjeze & ukusno </h4>
+    <h1 class="heading"> CrispyVegan </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>CRISPY VEGAN SENDVIC „FALAFEL'</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.00 KM</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>CRISPY VEGAN TORTILJAM FALAFEL</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.00 / 8.00 km</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>CRISPY VEGAN „FALAFEL"10 KOMADA</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>4.00 / 6.50 km</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>HUMMUS U TANJIRU</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.0 km </span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>FOUL U TANJIRU</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50/8.0 </span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+
+    </div>
+        <!-- end of Vegan   ///////////////////////////////////////////////////////////-->
+</section>
+<!---////////////PALTE/////////////////-->
+
+<section class="dishes" id="dishes">
+
+    <h4 class="sub-heading"> svjeze & ukusno </h4>
+    <h1 class="heading"> Plate </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>ZINGER CRISPY PLATA.</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.00 KM</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>Classic (srednji)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.00 / 8.00 km</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>ZINGER TORTILJA PLATA</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>4.00 / 6.50 km</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=" " alt="">
+            <h3>ZINGER GRILOVANA PILETINA PLATA</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50 / 8.0 km </span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="" alt="">
+            <h3>ZINGER SEF PLATA</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.50/8.0 </span> 
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+    </div>
+        <!-- end of Burger   ///////////////////////////////////////////////////////////-->
+</section>
+<!---/////////////////////////////-->
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src=" " alt="">
+        </div>
+
+        <div class="content">
+            <h3>fresh Allday Everyday </h3>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Cash/Online payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>Service</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more:-</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> our menu </h3>
+    <h1 class="heading"> today's speciality </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$30.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=" " alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$25.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=" " alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$22.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=" " alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$20.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$18.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$17.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$11.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$15.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!--// ordering system (in work so this is just somethin i edited from the web)-->
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading"> order now </h3>
+    <h1 class="heading"> free and fast </h1>
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=zinger&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:900px;}</style><a href="https://www.embedgooglemap.net">google maps code generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+
+</section>
+
+<!--// footer information-->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Sarajevo,BiH</h3>
+            <a href="#">Stup, bullevar</a>
+           
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#reivew">reivew</a>
+            <a href="#order">order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info:</h3>
+            <a href="#">+38762282152</a>
+            <a href="#">kohil.islam8@gmail.com</a>
+            <a href="#">kohil.islam45@gmail.com</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+         
+            <a href="https://github.com/is-koh"target="_blank">Github</a>
+            
+        </div>
+
+    </div>
+
+    <div class="credit"> Created by <span>i-Kohil 2021</span> </div>
+
+</section>
+
+
+<!--// gif that appears at the start -->
+<div class="loader-container">
+    <img src="" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
 </body>
 </html>
-
