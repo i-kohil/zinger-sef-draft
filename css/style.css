@@ -220,7 +220,8 @@ header .icons #menu-bars{
 .swiper-pagination-bullet-active{
     background:var( --red);
 }
-/*//////////////////////////////////////////////*/
+
+/*//////////////zinger////////////////////////////////*/
 
 .Zinger .box-container{
     display: grid;
@@ -299,6 +300,570 @@ header .icons #menu-bars{
     margin-right: 1rem;
     font-size: 2.5rem;
 }
+/*/////////////////////////////*/
+
+/*//////////////zinger////////////////////////////////*/
+
+.Zinger .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap:1.5rem;
+}
+
+.Zinger .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Zinger .box-container .box .fa-heart,
+.Zinger .box-container .box .fa-eye{
+    position: absolute;
+    top:1.5rem;
+    background:#eee;
+    border-radius: 50%;
+    height: 5rem;
+    width:5rem;
+    line-height: 5rem; 
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.Zinger .box-container .box .fa-heart:hover,
+.Zinger .box-container .box .fa-eye:hover{
+    background: var( --red);
+    color:#fff;
+}
+
+.Zinger .box-container .box .fa-heart{
+    right:-15rem;
+}
+
+.Zinger .box-container .box .fa-eye{
+    left:-15rem;
+}
+
+.Zinger .box-container .box:hover .fa-heart{
+    right:1.5rem;
+}
+
+.Zinger .box-container .box:hover .fa-eye{
+    left:1.5rem;
+}
+
+.Zinger .box-container .box img{
+    height:17rem;
+    margin:1rem 0;
+}
+
+.Zinger .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.Zinger .box-container .box .stars{
+    padding:1rem 0;
+}
+
+.Zinger .box-container .box .stars i{
+    font-size: 1.7rem;
+    color:var( --red);
+}
+
+.Zinger .box-container .box span{
+    color:var( --red);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+/*/////////////////////////////*//*//////////////zinger////////////////////////////////*/
+
+.Zinger .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap:1.5rem;
+}
+
+.Zinger .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Zinger .box-container .box .fa-heart,
+.Zinger .box-container .box .fa-eye{
+    position: absolute;
+    top:1.5rem;
+    background:#eee;
+    border-radius: 50%;
+    height: 5rem;
+    width:5rem;
+    line-height: 5rem; 
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.Zinger .box-container .box .fa-heart:hover,
+.Zinger .box-container .box .fa-eye:hover{
+    background: var( --red);
+    color:#fff;
+}
+
+.Zinger .box-container .box .fa-heart{
+    right:-15rem;
+}
+
+.Zinger .box-container .box .fa-eye{
+    left:-15rem;
+}
+
+.Zinger .box-container .box:hover .fa-heart{
+    right:1.5rem;
+}
+
+.Zinger .box-container .box:hover .fa-eye{
+    left:1.5rem;
+}
+
+.Zinger .box-container .box img{
+    height:17rem;
+    margin:1rem 0;
+}
+
+.Zinger .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.Zinger .box-container .box .stars{
+    padding:1rem 0;
+}
+
+.Zinger .box-container .box .stars i{
+    font-size: 1.7rem;
+    color:var( --red);
+}
+
+.Zinger .box-container .box span{
+    color:var( --red);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+/*/////////////////////////////*//*//////////////zinger////////////////////////////////*/
+
+.Zinger .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap:1.5rem;
+}
+
+.Zinger .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Zinger .box-container .box .fa-heart,
+.Zinger .box-container .box .fa-eye{
+    position: absolute;
+    top:1.5rem;
+    background:#eee;
+    border-radius: 50%;
+    height: 5rem;
+    width:5rem;
+    line-height: 5rem; 
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.Zinger .box-container .box .fa-heart:hover,
+.Zinger .box-container .box .fa-eye:hover{
+    background: var( --red);
+    color:#fff;
+}
+
+.Zinger .box-container .box .fa-heart{
+    right:-15rem;
+}
+
+.Zinger .box-container .box .fa-eye{
+    left:-15rem;
+}
+
+.Zinger .box-container .box:hover .fa-heart{
+    right:1.5rem;
+}
+
+.Zinger .box-container .box:hover .fa-eye{
+    left:1.5rem;
+}
+
+.Zinger .box-container .box img{
+    height:17rem;
+    margin:1rem 0;
+}
+
+.Zinger .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.Zinger .box-container .box .stars{
+    padding:1rem 0;
+}
+
+.Zinger .box-container .box .stars i{
+    font-size: 1.7rem;
+    color:var( --red);
+}
+
+.Zinger .box-container .box span{
+    color:var( --red);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+/*/////////////////////////////*/
+
+/*//////////////Burger////////////////////////////////*/
+
+.Burger .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap:1.5rem;
+}
+
+.Burger .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Burger .box-container .box .fa-heart,
+.Burger .box-container .box .fa-eye{
+    position: absolute;
+    top:1.5rem;
+    background:#eee;
+    border-radius: 50%;
+    height: 5rem;
+    width:5rem;
+    line-height: 5rem; 
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.Burger .box-container .box .fa-heart:hover,
+.Burger .box-container .box .fa-eye:hover{
+    background: var( --red);
+    color:#fff;
+}
+
+.Burger .box-container .box .fa-heart{
+    right:-15rem;
+}
+
+.Burger .box-container .box .fa-eye{
+    left:-15rem;
+}
+
+.Burger .box-container .box:hover .fa-heart{
+    right:1.5rem;
+}
+
+.Burger .box-container .box:hover .fa-eye{
+    left:1.5rem;
+}
+
+.Burger .box-container .box img{
+    height:17rem;
+    margin:1rem 0;
+}
+
+.Burger .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.Burger .box-container .box .stars{
+    padding:1rem 0;
+}
+
+.Burger .box-container .box .stars i{
+    font-size: 1.7rem;
+    color:var( --red);
+}
+
+.Burger .box-container .box span{
+    color:var( --red);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+/*/////////////////////////////*/
+
+/*//////////////Ostalo////////////////////////////////*/
+
+.Ostalo .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap:1.5rem;
+}
+
+.Ostalo .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Ostalo .box-container .box .fa-heart,
+.Ostalo .box-container .box .fa-eye{
+    position: absolute;
+    top:1.5rem;
+    background:#eee;
+    border-radius: 50%;
+    height: 5rem;
+    width:5rem;
+    line-height: 5rem; 
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.Ostalo .box-container .box .fa-heart:hover,
+.Ostalo .box-container .box .fa-eye:hover{
+    background: var( --red);
+    color:#fff;
+}
+
+.Ostalo .box-container .box .fa-heart{
+    right:-15rem;
+}
+
+.Ostalo .box-container .box .fa-eye{
+    left:-15rem;
+}
+
+.Ostalo .box-container .box:hover .fa-heart{
+    right:1.5rem;
+}
+
+.Ostalo .box-container .box:hover .fa-eye{
+    left:1.5rem;
+}
+
+.Ostalo .box-container .box img{
+    height:17rem;
+    margin:1rem 0;
+}
+
+.Ostalo .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.Ostalo .box-container .box .stars{
+    padding:1rem 0;
+}
+
+.Ostalo .box-container .box .stars i{
+    font-size: 1.7rem;
+    color:var( --red);
+}
+
+.Ostalo .box-container .box span{
+    color:var( --red);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+/*/////////////////////////////*/
+
+/*//////////////Vegan////////////////////////////////*/
+
+.Zinger .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap:1.5rem;
+}
+
+.Zinger .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Zinger .box-container .box .fa-heart,
+.Zinger .box-container .box .fa-eye{
+    position: absolute;
+    top:1.5rem;
+    background:#eee;
+    border-radius: 50%;
+    height: 5rem;
+    width:5rem;
+    line-height: 5rem; 
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.Zinger .box-container .box .fa-heart:hover,
+.Zinger .box-container .box .fa-eye:hover{
+    background: var( --red);
+    color:#fff;
+}
+
+.Zinger .box-container .box .fa-heart{
+    right:-15rem;
+}
+
+.Zinger .box-container .box .fa-eye{
+    left:-15rem;
+}
+
+.Zinger .box-container .box:hover .fa-heart{
+    right:1.5rem;
+}
+
+.Zinger .box-container .box:hover .fa-eye{
+    left:1.5rem;
+}
+
+.Zinger .box-container .box img{
+    height:17rem;
+    margin:1rem 0;
+}
+
+.Zinger .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.Zinger .box-container .box .stars{
+    padding:1rem 0;
+}
+
+.Zinger .box-container .box .stars i{
+    font-size: 1.7rem;
+    color:var( --red);
+}
+
+.Zinger .box-container .box span{
+    color:var( --red);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+/*/////////////////////////////*//*//////////////zinger////////////////////////////////*/
+
+.Zinger .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap:1.5rem;
+}
+
+.Zinger .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Zinger .box-container .box .fa-heart,
+.Zinger .box-container .box .fa-eye{
+    position: absolute;
+    top:1.5rem;
+    background:#eee;
+    border-radius: 50%;
+    height: 5rem;
+    width:5rem;
+    line-height: 5rem; 
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.Zinger .box-container .box .fa-heart:hover,
+.Zinger .box-container .box .fa-eye:hover{
+    background: var( --red);
+    color:#fff;
+}
+
+.Zinger .box-container .box .fa-heart{
+    right:-15rem;
+}
+
+.Zinger .box-container .box .fa-eye{
+    left:-15rem;
+}
+
+.Zinger .box-container .box:hover .fa-heart{
+    right:1.5rem;
+}
+
+.Zinger .box-container .box:hover .fa-eye{
+    left:1.5rem;
+}
+
+.Zinger .box-container .box img{
+    height:17rem;
+    margin:1rem 0;
+}
+
+.Zinger .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.Zinger .box-container .box .stars{
+    padding:1rem 0;
+}
+
+.Zinger .box-container .box .stars i{
+    font-size: 1.7rem;
+    color:var( --red);
+}
+
+.Zinger .box-container .box span{
+    color:var( --red);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+/*/////////////////////////////*/
+
+
 
 /*
 .dishes .box-container{
@@ -440,85 +1005,6 @@ header .icons #menu-bars{
     font-size: 1.5rem;
     color:var(--black);
 }
-
-.menu .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
-}
-
-.menu .box-container .box{
-    background: #fff;
-    border:.1rem solid rgba(0,0,0,.2);
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);    
-}
-
-.menu .box-container .box .image{
-    height: 25rem;
-    width: 100%;
-    padding:1.5rem;
-    overflow: hidden;
-    position: relative;
-}
-
-.menu .box-container .box .image img{
-    height: 100%;
-    width: 100%;
-    border-radius: .5rem;
-    object-fit: cover;
-}
-
-.menu .box-container .box .image .fa-heart{
-    position: absolute;
-    top:2.5rem; right: 2.5rem;
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    background: #fff;
-    border-radius: 50%;
-    color:var(--black);
-}
-
-.menu .box-container .box .image .fa-heart:hover{
-    background-color: var( --red);
-    color:#fff;
-}
-
-.menu .box-container .box .content{
-    padding:2rem;
-    padding-top: 0;
-}
-
-.menu .box-container .box .content .stars{
-    padding-bottom: 1rem;
-}
-
-.menu .box-container .box .content .stars i{
-   font-size: 1.7rem;
-   color:var( --red);
-}
-
-.menu .box-container .box .content h3{
-    color:var(--black);
-    font-size: 2.5rem;
-}
-
-.menu .box-container .box .content p{
-    color:var(--black);
-    font-size: 1.6rem;
-    padding:.5rem 0;
-    line-height: 1.5;
-}
-
-.menu .box-container .box .content .price{
-    color:var( --red);
-    margin-left: 1rem;
-    font-size: 2.5rem;
-}
-
 
 
 .order form{
