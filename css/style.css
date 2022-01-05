@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-     --red:#FA2424;
+     --red:#rgb(255, 17, 0);
     --black:#192a56;
     --darkOrange:rgb(241, 83, 10);
     --light-color:rgb(238, 238, 238);
@@ -1066,7 +1066,7 @@ header .icons #menu-bars{
 
 .footer .box-container{
     display: grid;
-    background: rgb(221, 183, 171);
+    background: rgb(255, 17, 0);
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
 }
